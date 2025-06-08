@@ -68,7 +68,7 @@ const App: React.FC = () => {
 
       {notFound && (
         <div className="flex flex-col items-center justify-center">
-          <img src="/assets/not-found.png" alt="not-found" />
+          <img src="/weatherApp/not-found.png" alt="not-found" />
           <h1 className="text-xl">Sorry, City not found in our database</h1>
         </div>
       )}

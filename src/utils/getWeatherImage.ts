@@ -12,5 +12,5 @@ export const getWeatherImage = (description: string): string => {
   if (lower.includes("mist") || lower.includes("haze") || lower.includes("fog"))
     return "mist.png";
 
-  return "not-found.png"; //Default image value
+  return "sunny.png"; //Default image value
 };
